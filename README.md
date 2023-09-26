@@ -27,7 +27,8 @@ One sec, I'm coming to it.
 First, fork this repository. (little button near the top of the page)  
 If you want to work directly in the browser you can follow [this part of the abovementionned tutorial](https://smwhr.notion.site/Use-the-Dendry-Starter-Pack-17699e255fc445a193555b65b3b566fd).  
 Create a new folder in `source` with your name in tech-case (meaning no space or special characters please).  
-Create your _qualities_ and _scenes_ as you want.  
+Create your _scenes_ as you want.  
+Share you _qualities_ in the _qualities_ folder (so that everyone know what variable are available or not)
 When you're satisfied, [open a pull request](https://github.com/smwhr/colossal-sock-addventure/compare) so that you code can be _merged_ with the main code.  
 
 > The Socksmith, saddened by such senseless fabric-shed, retreated into self-exile, leaving the socks and underwear to their grievances.
@@ -43,3 +44,7 @@ If you have questions or want help, come talk to me (smwhr) on the [Neo-Interact
 Well, I don't know about you, but _talking underwears in a never-ending cave_ spook the hell out of me.  
 Anyway, you can add anything halloween themed (socks used for trick-or-threating ?), you can have the player wander in a multicoloured Sock de los Muertos parade, or fall in the 9th cycle of the washing machine.   
 Mostly, don't forget to have fun.
+
+## Work in progress
+The work in progress is [playable on the automatically generated page](https://smwhr.github.io/colossal-sock-addventure/)
+
