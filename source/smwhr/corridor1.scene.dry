@@ -1,0 +1,9 @@
+title: Follow the small corridor
+subtitle: Looks like there's a door at the end.
+unavailable-subtitle: It is blocked by a large iron gate.
+new-page: true
+tags: entrance
+view-if: have_lamp = 1
+choose-if: have_gate_key = 1
+
+Something something door at the end

@@ -1,8 +1,8 @@
 title: Get lamp
 subtitle: There's a lamp on the ground.
 new-page: true
-view-if: lamp = 0
-tags: top
-on-departure: lamp = 1
+view-if: have_lamp = 0
+tags: entrance
+on-departure: have_lamp = 1
 
 You get the lamp.
