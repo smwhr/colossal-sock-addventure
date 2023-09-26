@@ -2,9 +2,9 @@ title: Root Scene
 new-page: true
 go-to: introduction if introduction = 0;main
 
-@main
 = Colossal Sock Addventure
 
+@main
 You stand at the entrance of a cave.
 
 # Scenes with a top tag can be displayed here.
