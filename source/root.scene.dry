@@ -5,6 +5,8 @@ go-to: introduction if introduction = 0;main
 = Colossal Sock Addventure
 
 @main
+title: Main Scene
+
 You stand at the entrance of a cave.
 
 # Scenes with a top tag can be displayed here.
@@ -26,31 +28,34 @@ Then, just after having prepared a good breakfast you remembered you had an appo
 @eat_quick
 subtitle: Excellent idea if you want to throw up during the meeting.
 go-to: after_food
+
 You try to fit as much as you can in you. 
 
 @throw_food
 subtitle: Or just leave everything on the table so gnats can feast all day.
 go-to: after_food
+
 You feel guilty for all the children who could have eaten those toasts.
 
 @after_food
+
 Anyway, you got dressed.
 Only one thing was missing.
 Your second yellow sock (with red dots).
 You got those a few years ago at the neighborhood halloween yard sale (yeah, you're the kind of person who buys socks at a yard sale, sorry about that but that's just who you are). They've always brought you luck whenever you wore them.
 
-- @in_dryer It _should_ be in the dryer.
-- @definitely_in_dryer It _must_ be in the dryer.
+- @in_dryer: It _should_ be in the dryer.
+- @definitely_in_dryer: It _must_ be in the dryer.
 
 @in_dryer
 subtitle: After all that's where you found the first one.
-go-to: in_dryer
+go-to: tumble_dryer
 
 @definitely_in_dryer
 subtitle: It's not _anywhere_ else.
-go-to: in_dryer
+go-to: tumble_dryer
 
-@in_dryer
+@tumble_dryer
 new-page: true
 
 You lean inside the dryer. That sock must be some...
@@ -58,6 +63,7 @@ You lean inside the dryer. That sock must be some...
 - @somewhere: ...where
 
 @somewhere
+
 ... where.
 
 The world suddenly start spinning arround you. [? if eat_quick: You start to feel sick, maybe you shouldn't have eaten so much! ?] Every colors come and go, you don't know if you're falling or not.
